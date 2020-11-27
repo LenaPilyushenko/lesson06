@@ -1,7 +1,6 @@
 'use strict';
 
 function randomInt(min, max) {
-    // случайное число от min до (max+1)
     let rand = min + Math.random() * (max - min);
     return Math.floor(rand);
 }
@@ -31,5 +30,4 @@ function play() {
         play();
     }    
 }
-
 play();
